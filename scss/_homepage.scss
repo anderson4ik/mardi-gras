@@ -21,7 +21,7 @@ body {
         grid-column: 1/-1;
         grid-row: 1/2;
         display: grid;
-        grid-template-columns: repeat(8, minmax(2em, 1fr));
+        grid-template-columns: repeat(8, minmax(1em, 1fr));
         visibility: hidden;
         width: 100%;
         height: 4em;
@@ -106,8 +106,8 @@ body {
         }
 
         .navigation {
+            grid-column: 6/11;
             position: fixed;
-            grid-column: 6/9;
             width: 100%;
             height: 100vh;
             top: -100%;

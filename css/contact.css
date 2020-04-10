@@ -173,3 +173,36 @@
     }
 
 }
+
+@media (min-width:360px) and (max-width:409px) {
+    .row {
+        justify-content: center;
+    }
+
+    .wrapper .first__section .big__underline {
+        margin-bottom: 1em;
+    }
+
+    .social-share {
+        margin-left: 0;
+        text-align: center;
+    }
+
+    .social-share-paragraph {
+        text-align: center;
+        font-size: .9em;
+    }
+
+    .formfield {
+        flex-direction: column;
+    }
+
+    .input {
+        margin-top: .5rem;
+    }
+
+    .first__section__content .sidebar {
+        margin-top: 3em;
+    }
+
+}

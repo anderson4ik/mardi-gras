@@ -144,3 +144,35 @@
     }
 
 }
+
+@media (min-width:360px) and (max-width:409px) {
+    .row {
+        justify-content: center;
+    }
+
+    .wrapper .first__section .big__underline {
+        margin-bottom: 1em;
+    }
+
+    .social-share {
+        margin-left: 0;
+        text-align: center;
+    }
+
+    .social-share-paragraph {
+        text-align: left;
+        font-size: .9em;
+    }
+
+    .heading-h2 {
+        font-size: 1.8em;
+    }
+
+    .btn-group-lg>.btn,
+    .btn-lg {
+        font-size: 1.1rem;
+        text-align: left;
+        padding: .3rem
+    }
+
+}
