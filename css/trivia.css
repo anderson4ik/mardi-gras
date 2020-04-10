@@ -1,0 +1,280 @@
+.trivia-container {
+    color: #5b595c;
+}
+
+.trivia-container form .container {
+    background-color: #F1ECDA;
+    border: none;
+    border-radius: 1em;
+    padding: 2em;
+    margin-top: 1em;
+}
+
+.trivia-img {
+    width: 30px;
+    position: relative;
+    visibility: hidden;
+}
+
+.wrong {
+    top: -2em;
+}
+
+.question-heading {
+    font-family: 'Henny Peny';
+    font-size: 1.4em;
+}
+
+#result {
+    margin-left: 5em;
+}
+
+.anslist {
+    visibility: visible;
+    /* position: absolute; */
+}
+
+.anslist div input {
+    font-family: 'Roboto', sans-serif;
+}
+
+.answerbox {
+    visibility: hidden;
+    position: absolute;
+}
+
+.answerbox p {
+    font-family: 'Roboto', sans-serif;
+    font-style: italic;
+    font-size: 1.1em;
+    margin: 2em 0 .7em 0;
+}
+
+.your-scored {
+    font-size: 1.3em;
+    font-family: 'Roboto', sans-serif;
+}
+
+.trivia-container form .container {
+    margin-top: .5rem;
+}
+
+.btn-trivia {
+    text-align: center;
+}
+
+.btn-trivia input {
+    height: 50px;
+    width: 250px;
+    color: #5b595c;
+    font-size: 1.2em;
+    font-weight: bolder;
+    text-align: center;
+    background-color: #F1ECDA;
+    border: 1px solid #5b595c;
+    border-radius: 1em;
+    outline: none;
+    transition: all .3s;
+}
+
+.btn-trivia input:hover {
+    color: black;
+    border: 1px solid black;
+    box-shadow: 6px 6px 20px -4px rgba(0, 0, 0, 0.75);
+}
+
+@media (min-width:1200px) and (max-width:1599px) {
+    .row {
+        justify-content: center;
+    }
+
+    .first__section__content .sidebar {
+        margin-top: 7em;
+    }
+}
+
+@media (min-width:992px) and (max-width:1199px) {
+    .row {
+        justify-content: center;
+    }
+
+    .first__section__content .sidebar {
+        margin-top: 7em;
+    }
+}
+
+@media (min-width:768px) and (max-width:991px) {
+    .row {
+        justify-content: center;
+    }
+
+    .formfield {
+        flex-direction: column;
+    }
+
+    .input {
+        margin-top: .5rem;
+    }
+
+    .first__section__content .sidebar {
+        margin-top: 7em;
+    }
+}
+
+@media (min-width:670px) and (max-width:767px) {
+    .row {
+        justify-content: center;
+    }
+
+    .wrapper .first__section .big__underline {
+        margin-bottom: 1em;
+    }
+
+    .social-share {
+        margin-left: 0;
+        text-align: center;
+    }
+
+    .social-share-paragraph {
+        text-align: left;
+        font-size: .9em;
+    }
+
+    .first__section__content .sidebar {
+        margin-top: 4em;
+    }
+
+    #result {
+        margin-left: 0;
+    }
+}
+
+@media (min-width:576px) and (max-width:669px) {
+    .row {
+        justify-content: center;
+    }
+
+    .wrapper .first__section .big__underline {
+        margin-bottom: 1em;
+    }
+
+    .social-share {
+        margin-left: 0;
+        text-align: center;
+    }
+
+    .social-share-paragraph {
+        text-align: center;
+        font-size: .9em;
+    }
+
+    .trivia-container form .container {
+        padding: 1em .3em;
+    }
+
+    .question-heading {
+        padding-right: .3em;
+    }
+
+    .your-answer {
+        font-size: 1.3rem;
+    }
+
+    .answerbox p {
+        font-size: .9em;
+        padding-right: .3em;
+    }
+
+    .trivia-img {
+        padding-left: .4em;
+    }
+
+    .wrong {
+        top: -1.8em;
+    }
+
+    .first__section__content .sidebar {
+        margin-top: 3em;
+    }
+
+    #result {
+        margin-left: 0;
+    }
+
+}
+
+@media (min-width:410px) and (max-width:575px) {
+    .row {
+        justify-content: center;
+    }
+
+    .wrapper .first__section .big__underline {
+        margin-bottom: 1em;
+    }
+
+    .social-share {
+        margin-left: 0;
+        text-align: center;
+    }
+
+    .social-share-paragraph {
+        text-align: center;
+        font-size: .9em;
+    }
+
+    .trivia-container form .container {
+        padding: 1em .3em;
+    }
+
+    .question-heading {
+        padding: 0 .5em;
+        margin-bottom: 0;
+    }
+
+    .anslist div {
+        padding-left: 1em;
+    }
+
+    .your-answer {
+        font-size: 1.3rem;
+        padding-left: .5em;
+    }
+
+    .correct-answer {
+        padding-left: .5em;
+    }
+
+    .answerbox p {
+        font-size: .9em;
+        padding-right: .3em;
+        padding-left: .5em;
+    }
+
+    .col-sm-1 {
+        display: flex;
+        justify-content: center;
+
+    }
+
+    .trivia-img {
+        margin-bottom: .9em;
+        padding-left: 0;
+    }
+
+    .checked {
+        right: -1.1em;
+    }
+
+    .wrong {
+        top: 0;
+        left: -1.3em;
+    }
+
+    .first__section__content .sidebar {
+        margin-top: 3em;
+    }
+
+    #result {
+        margin-left: 0;
+    }
+}

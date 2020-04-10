@@ -1,0 +1,101 @@
+.aboutUs-mayor img {
+    float: left;
+    border: none;
+    border-radius: 3px;
+    box-shadow: 0 13px 26px -10px rgba(0, 0, 0, .48);
+    margin: 0 1.5em 2em 0;
+}
+
+.aboutUs-paragraph {
+    color: #5b595c;
+    font-family: 'Roboto', sans-serif;
+    text-align: justify;
+    margin: 12px 0 27px 0;
+}
+
+.last {
+    margin-bottom: 4em;
+}
+
+.aboutUs-mardigras {
+    margin-top: 4em;
+}
+
+.aboutUs-mardigras img {
+    float: right;
+    border: none;
+    border-radius: 3px;
+    box-shadow: 0 13px 26px -10px rgba(0, 0, 0, .48);
+    margin: 0 0 2em 1.5em;
+}
+
+@media (min-width:768px) and (max-width:1599px) {
+    .row {
+        justify-content: center;
+    }
+}
+
+@media (min-width:576px) and (max-width:767px) {
+    .row {
+        justify-content: center;
+    }
+
+    .wrapper .first__section .big__underline {
+        margin-bottom: 1em;
+    }
+
+    .social-share {
+        margin-left: 0;
+        text-align: center;
+    }
+
+    .aboutUs-paragraph {
+        font-size: .9em;
+    }
+}
+
+@media (min-width:410px) and (max-width:575px) {
+    .row {
+        justify-content: center;
+    }
+
+    .wrapper .first__section .big__underline {
+        margin-bottom: 1em;
+    }
+
+    .social-share {
+        margin-left: 0;
+        text-align: center;
+    }
+
+    .aboutUs-mayor {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .aboutUs-mayor img {
+        float: none;
+        margin: 0 auto 1em auto;
+    }
+
+    .aboutUs-mardigras {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .heading-h2 {
+        font-size: 1.9em;
+        margin: 0 0 1em 0;
+        text-align: center;
+    }
+
+    .aboutUs-mardigras img {
+        float: none;
+        margin: 0 auto 1em auto;
+    }
+
+    .aboutUs-paragraph {
+        font-size: .9em;
+        margin: 12px 0;
+    }
+}

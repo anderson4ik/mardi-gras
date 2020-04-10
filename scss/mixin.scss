@@ -1,0 +1,23 @@
+@mixin navAnimation($width, $height, $bgcColor) {
+    content: "";
+    width: $width;
+    height: $height;
+    background-color: $bgcColor;
+    display: block;
+    margin: auto;
+    transition: width .2s cubic-bezier(.55, 0, .98, .54);
+}
+
+@mixin articleText($color, $fontFamily, $fontSize) {
+    color: $color;
+    font-family: $fontFamily;
+    font-size: $fontSize;
+}
+
+@mixin socialIcon {
+    transition: all .2s;
+
+    &:hover {
+        transform: rotateZ(360deg);
+    }
+}

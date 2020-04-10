@@ -1,0 +1,146 @@
+.container {
+    margin-top: 3em;
+}
+
+.social-share {
+    margin-left: 2em;
+}
+
+.facebook-share,
+.twitter-share {
+    margin: 0 1em 2em 0;
+    font-weight: bold;
+}
+
+.btn .fab {
+    padding-right: .5em;
+}
+
+.facebook-share:hover {
+    background-color: #3b589c;
+    border-color: #3b589c;
+}
+
+.twitter-share:hover {
+    background-color: #2bb4e0;
+    border-color: #2bb4e0;
+}
+
+.social-share-paragraph {
+    color: #5b595c;
+    font-family: 'Roboto', sans-serif;
+    margin-bottom: 3em;
+}
+
+.social-share-paragraph a {
+    color: black;
+    font-size: 1.1em;
+}
+
+.heading-h2 {
+    margin: 0 0 1em 1em;
+    font-family: 'Henny Peny';
+}
+
+/* Bootstrap collapse */
+
+.card {
+    margin-top: .5em;
+}
+
+.card-header {
+    /*  background-color: #EEEEEE; */
+    background-color: #F1ECDA;
+}
+
+.card-body {
+    background-color: #FFFFFF;
+    color: #5b595c;
+    font-family: 'Roboto', sans-serif;
+}
+
+.btn {
+    font-family: 'Henny Peny';
+}
+
+.btn:focus {
+    box-shadow: none;
+}
+
+@media (min-width:1210px) and (max-width:1599px) {
+    .row {
+        justify-content: center;
+    }
+}
+
+@media (min-width:768px) and (max-width:1209px) {
+    .row {
+        justify-content: center;
+    }
+
+    .btn-group-lg>.btn,
+    .btn-lg {
+        font-size: 1.1rem;
+        text-align: left;
+        padding: .3rem
+    }
+}
+
+@media (min-width:576px) and (max-width:767px) {
+    .row {
+        justify-content: center;
+    }
+
+    .wrapper .first__section .big__underline {
+        margin-bottom: 1em;
+    }
+
+    .social-share {
+        margin-left: 0;
+        text-align: center;
+    }
+
+    .social-share-paragraph {
+        text-align: left;
+        font-size: .9em;
+    }
+
+    .btn-group-lg>.btn,
+    .btn-lg {
+        font-size: 1.1rem;
+        text-align: left;
+        padding: .3rem
+    }
+}
+
+@media (min-width:410px) and (max-width:575px) {
+    .row {
+        justify-content: center;
+    }
+
+    .wrapper .first__section .big__underline {
+        margin-bottom: 1em;
+    }
+
+    .social-share {
+        margin-left: 0;
+        text-align: center;
+    }
+
+    .social-share-paragraph {
+        text-align: left;
+        font-size: .9em;
+    }
+
+    .heading-h2 {
+        font-size: 1.8em;
+    }
+
+    .btn-group-lg>.btn,
+    .btn-lg {
+        font-size: 1.1rem;
+        text-align: left;
+        padding: .3rem
+    }
+
+}

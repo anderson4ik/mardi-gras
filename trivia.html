@@ -1,0 +1,858 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trivia | Mardi Gras 2020</title>
+    <link rel="shortcut icon" type="image/png" href="images/logo.png">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <script src="https://kit.fontawesome.com/7486895865.js" crossorigin="anonymous"></script>
+
+    <!--FancyBox-->
+    <link rel="stylesheet" type="text/css" href="jquery/jquery.fancybox.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/media.css">
+    <link rel="stylesheet" href="css/faq.css">
+    <link rel="stylesheet" href="css/contact.css">
+    <link rel="stylesheet" href="css/aboutUs.css">
+    <link rel="stylesheet" href="css/trivia.css">
+    <link rel="stylesheet" href="css/animate.css">
+</head>
+
+<body>
+    <div class="wrapper">
+        <!--Mobile Navbar-->
+        <div class="mobile-navbar">
+
+            <!-- sidebar -->
+            <input type="checkbox" class="checkbox" id="click" hidden>
+            <div class="sidebar">
+                <img class="sidebar__img" src="images/sitelogo.png" alt="sitelogo">
+
+                <div class="sidebar__search">
+                    <form class="search__form">
+                        <input class="search__input" type="text" placeholder="Search">
+                        <button class="search__btn"><span style="font-size: 1.1em; color: green;"><i
+                                    class="fas fa-search"></i></span></button>
+                    </form>
+                </div>
+                <label for="click">
+                    <div class="menu-icon">
+                        <div class="line line-1"></div>
+                        <div class="line line-2"></div>
+                        <div class="line line-3"></div>
+                    </div>
+                </label>
+            </div>
+            <!-- end of sidebar -->
+
+            <!-- navigation -->
+            <nav class="navigation">
+
+                <ul class="navigation-list">
+                    <li class="navigation-item">
+                        <a href="index.html" class="navigation-link">home</a>
+                    </li>
+                    <li class="navigation-item">
+                        <a href="about.html" class="navigation-link">about</a>
+                    </li>
+                    <li class="navigation-item">
+                        <a href="media.html" class="navigation-link">media</a>
+                    </li>
+                    <li class="navigation-item">
+                        <a href="faq.html" class="navigation-link">faq</a>
+                    </li>
+                    <li class="navigation-item">
+                        <a href="contact.html" class="navigation-link">contact</a>
+                    </li>
+                    <li class="navigation-item">
+                        <a href="trivia.html" class="navigation-link">trivia</a>
+                    </li>
+                </ul>
+
+                <ul class="social-icons-list">
+                    <li>
+                        <a href="https://www.facebook.com/MardiGrasNewOrleans" class="social-link"><i
+                                class="fab fa-facebook-f"></i></a>
+                    </li>
+                    <li>
+                        <a href="https://twitter.com/MardiGrasNOLA" class="social-link"><i
+                                class="fab fa-twitter"></i></a>
+                    </li>
+                    <li>
+                        <a href="https://www.instagram.com/mardigrasneworleans/" class="social-link"><i
+                                class="fab fa-instagram"></i></a>
+                    </li>
+                    <li>
+                        <a href="https://www.youtube.com/channel/UCOrq1qF6dVDn9Do-wvbKh0Q" class="social-link"><i
+                                class="fab fa-youtube-square"></i></a>
+                    </li>
+                    <li>
+                        <a href="https://www.tripadvisor.com/Profile/MardiGrasNOLA" class="social-link"><i
+                                class="fab fa-tripadvisor"></i></a>
+                    </li>
+                </ul>
+            </nav>
+            <!-- end of navigation -->
+        </div>
+        <!--/Mobile Navbar-->
+
+        <!--navbar-->
+        <nav class="first__nav">
+            <img class="first__nav__img wow animated tada" src="images/sitelogo.png" alt="sitelogo">
+
+            <div class="first__nav__div1"></div>
+
+            <!--Inner anchor-->
+            <a name="navbar"></a>
+
+
+            <ul class="first__nav__list">
+
+                <li class="first__nav__item">
+                    <a href="index.html" class="first__nav__link"><i class="fas fa-home social__icon"></i>Home</a>
+                </li>
+                <li class="first__nav__item">
+                    <a href="about.html" class="first__nav__link"><i
+                            class="fas fa-theater-masks social__icon"></i>About</a>
+                </li>
+                <li class="first__nav__item">
+                    <a href="media.html" class="first__nav__link" style="color:black;"><i
+                            class="fas fa-photo-video social__icon"></i>Media</a>
+                </li>
+                <li class="first__nav__item">
+                    <a href="faq.html" class="first__nav__link"><i
+                            class="fas fa-question-circle social__icon"></i>FAQ</a>
+                </li>
+                <li class="first__nav__item">
+                    <a href="contact.html" class="first__nav__link"><i
+                            class="fas fa-address-book social__icon"></i>Contact</a>
+                </li>
+
+                <li class="first__nav__item">
+                    <a href="trivia.html" class="first__nav__link" style="color:black;"><i
+                            class="fas fa-dice-d20 social__icon"></i>Trivia</a>
+                </li>
+
+            </ul>
+
+            <div class="first__nav__div2"></div>
+
+            <div class="search">
+                <form class="search__form">
+                    <input class="search__input" type="text" placeholder="Search">
+                    <button class="search__btn"><span style="font-size: 1.1em; color: green;"><i
+                                class="fas fa-search"></i></span></button>
+                </form>
+            </div>
+        </nav>
+        <!--end of navbar-->
+
+        <!--Section-->
+        <section class="first__section">
+            <div class="common__header">
+                <h1 class="common__heading">Mardi Gras Quiz - 10 Questions</h1>
+                <div class="underline">
+                    <div class="small__underline"></div>
+                    <div class="big__underline"></div>
+                </div>
+            </div>
+            <div class="first__section__wrapper">
+                <div class="first__section__content">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-xl-11 col-lg-12 col-md-11">
+                                <div class="social-share">
+                                    <button type="button"
+                                        class="btn btn-outline-primary facebook-share share-btn share-fb"
+                                        data-social="facebook-share" data-service="facebook"><i
+                                            class="fab fa-facebook-f"></i>Share</button>
+                                    <button type="button" class="btn btn-outline-primary twitter-share"
+                                        data-social="twitter" data-social-via="develocode"><i
+                                            class="fab fa-twitter"></i>Share</button>
+                                    <p class="social-share-paragraph">"There are lots of misconceptions about Mardi
+                                        Gras... how much do you really know about it?"
+                                    </p>
+                                </div>
+                                <div class="trivia-container">
+                                    <form name="trivia-form" id="myForm">
+                                        <div class="container" id="question1">
+
+                                            <div class="row box qnbox">
+                                                <div class="col-sm-1">
+                                                    <img src="images/checked.png" alt="checked.png"
+                                                        class="trivia-img checked" id="checked0">
+                                                    <img src="images/wrong.png" alt="wrong.png" class="trivia-img wrong"
+                                                        id="wrong0">
+                                                </div>
+
+                                                <div class="col-sm-11">
+                                                    <div class="qntxtbox">
+                                                        <h5 class="question-heading"><span
+                                                                style="color:green;">1.</span> True
+                                                            or False: The first organised Mardi Gras celebration in
+                                                            America took place in New Orleans.</b>
+
+                                                    </div><br>
+                                                    <div class="anslist">
+                                                        <div style="margin-bottom:2px;">
+                                                            <input name="1" value="true" type="radio"> true</div>
+
+                                                        <div style="margin-bottom:2px;">
+                                                            <input name="1" value="false" type="radio"> false</div>
+                                                    </div>
+                                                    <div class="answerbox">
+                                                        <h4 class="your-answer">Your Answer:
+                                                            <span id="answer_value1"></span>
+                                                        </h4>
+                                                        <h5 class="correct-answer">The correct answer:<span
+                                                                id="correct-value1"></span></h5>
+                                                        <p class="exlpanation">"The first organised Mardi Gras
+                                                            celebration in America was in Mobile, Alabama, in 1703.
+                                                            Records indicate that Mardi Gras balls were being held in
+                                                            New Orleans by 1743, though the first official parade was
+                                                            held in 1857."</p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                        <div class="container" id="question2">
+
+                                            <div class="row box qnbox">
+                                                <div class="col-sm-1 ">
+                                                    <img src="images/checked.png" alt="checked.png"
+                                                        class="trivia-img checked" id="checked1">
+                                                    <img src="images/wrong.png" alt="wrong.png" class="trivia-img wrong"
+                                                        id="wrong1">
+                                                </div>
+
+                                                <div class="col-sm-11">
+                                                    <div class="qntxtbox">
+                                                        <h5 class="question-heading"><span
+                                                                style="color:green;">2.</span> Which
+                                                            of the following is not one of New Orleans' Mardi Gras
+                                                            colors?</b>
+
+                                                    </div><br>
+                                                    <div class="anslist">
+
+
+                                                        <div style="margin-bottom:2px;">
+                                                            <input name="2" value="green" type="radio"> green</div>
+
+                                                        <div style="margin-bottom:2px;">
+                                                            <input name="2" value="yellow" type="radio"> yellow</div>
+
+                                                        <div style="margin-bottom:2px;">
+                                                            <input name="2" value="blue" type="radio"> blue</div>
+
+                                                        <div style="margin-bottom:2px;">
+                                                            <input name="2" value="purple" type="radio"> purple</div>
+                                                        <br>
+                                                    </div>
+                                                    <div class="answerbox">
+                                                        <h4 class="your-answer">Your Answer:
+                                                            <span id="answer_value2"></span>
+                                                        </h4>
+                                                        <h5 class="correct-answer">The correct answer:<span
+                                                                id="correct-value2"></span></h5>
+                                                        <p class="exlpanation">"Well that one shouldn't have been too
+                                                            difficult."</p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                        <div class="container" id="question3">
+
+                                            <div class="row box qnbox">
+                                                <div class="col-sm-1 ">
+                                                    <img src="images/checked.png" alt="checked.png"
+                                                        class="trivia-img checked" id="checked2">
+                                                    <img src="images/wrong.png" alt="wrong.png" class="trivia-img wrong"
+                                                        id="wrong2">
+                                                </div>
+
+                                                <div class="col-sm-11">
+                                                    <div class="qntxtbox">
+                                                        <h5 class="question-heading"><span
+                                                                style="color:green;">3.</span>Which
+                                                            of the New Orleans Mardi Gras colors is not a Mobilian Mardi
+                                                            Gras color?</b>
+
+                                                    </div><br>
+                                                    <div class="anslist">
+
+
+                                                        <div style="margin-bottom:2px;">
+                                                            <input name="3" value="blue" type="radio"> blue</div>
+
+                                                        <div style="margin-bottom:2px;">
+                                                            <input name="3" value="purple" type="radio"> purple</div>
+
+                                                        <div style="margin-bottom:2px;">
+                                                            <input name="3" value="green" type="radio"> green</div>
+
+                                                        <div style="margin-bottom:2px;">
+                                                            <input name="3" value="yellow" type="radio"> yellow</div>
+                                                        <br>
+                                                    </div>
+                                                    <div class="answerbox">
+                                                        <h4 class="your-answer">Your Answer:
+                                                            <span id="answer_value3"></span>
+                                                        </h4>
+                                                        <h5 class="correct-answer">The correct answer:<span
+                                                                id="correct-value3"></span></h5>
+                                                        <p class="exlpanation">"Mobile's Mardi Gras colors are yellow,
+                                                            symbolizing power, and purple, symbolizing justice. Green
+                                                            was added when Mardi Gras arrived in New Orleans."</p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                        <div class="container" id="question4">
+
+                                            <div class="row box qnbox">
+                                                <div class="col-sm-1 ">
+                                                    <img src="images/checked.png" alt="checked.png"
+                                                        class="trivia-img checked" id="checked3">
+                                                    <img src="images/wrong.png" alt="wrong.png" class="trivia-img wrong"
+                                                        id="wrong3">
+                                                </div>
+
+                                                <div class="col-sm-11">
+                                                    <div class="qntxtbox">
+                                                        <h5 class="question-heading"><span
+                                                                style="color:green;">4.</span> What
+                                                            medieval tradition can Mardi Gras be traced back to?</b>
+
+                                                    </div><br>
+                                                    <div class="anslist">
+
+
+                                                        <div style="margin-bottom:2px;">
+                                                            <input name="4"
+                                                                value="ordinary citizens dressing in costume to celebrate Lent"
+                                                                type="radio"> ordinary
+                                                            citizens dressing in costume to celebrate Lent</div>
+
+                                                        <div style="margin-bottom:2px;">
+                                                            <input name="4" value="parading held in celebration of Lent"
+                                                                type="radio"> parading
+                                                            held in celebration of Lent</div>
+
+                                                        <div style="margin-bottom:2px;">
+                                                            <input name="4" value="feasting before the arrival of Lent"
+                                                                type="radio"> feasting
+                                                            before the arrival of Lent</div>
+
+                                                        <div style="margin-bottom:2px;">
+                                                            <input name="4"
+                                                                value="the throwing of trinkets by children to celebrate Lent"
+                                                                type="radio"> the
+                                                            throwing of trinkets by children to celebrate Lent</div>
+                                                        <br>
+                                                    </div>
+                                                    <div class="answerbox">
+                                                        <h4 class="your-answer">Your Answer:
+                                                            <span id="answer_value4"></span>
+                                                        </h4>
+                                                        <h5 class="correct-answer">The correct answer:<span
+                                                                id="correct-value4"></span></h5>
+                                                        <p class="exlpanation">"Mardi Gras day was the last day before
+                                                            Lent, when Catholics would give up a certain food until
+                                                            Easter. Therefore, they would faest the day before. Hence
+                                                            the translation of Mardi Gras in the next question..."</p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                        <div class="container" id="question5">
+
+                                            <div class="row box qnbox">
+                                                <div class="col-sm-1 ">
+                                                    <img src="images/checked.png" alt="checked.png"
+                                                        class="trivia-img checked" id="checked4">
+                                                    <img src="images/wrong.png" alt="wrong.png" class="trivia-img wrong"
+                                                        id="wrong4">
+                                                </div>
+
+                                                <div class="col-sm-11">
+                                                    <div class="qntxtbox">
+                                                        <h5 class="question-heading"><span
+                                                                style="color:green;">5.</span> What
+                                                            does the French expression 'Mardi Gras' literally translate
+                                                            to in English?</b>
+
+                                                    </div><br>
+                                                    <div class="anslist">
+                                                        <div style="margin-bottom:2px;">
+                                                            <input name="5" value="Fat Tuesday" type="radio"> Fat
+                                                            Tuesday</div>
+
+                                                        <div style="margin-bottom:2px;">
+                                                            <input name="5" value="Fat Wednesday" type="radio"> Fat
+                                                            Wednesday</div>
+
+                                                        <div style="margin-bottom:2px;">
+                                                            <input name="5" value="Thin Wednesday" type="radio"> Thin
+                                                            Wednesday</div>
+
+                                                        <div style="margin-bottom:2px;">
+                                                            <input name="5" value="Thin Tuesday" type="radio"> Thin
+                                                            Tuesday</div>
+                                                    </div>
+                                                    <div class="answerbox">
+                                                        <h4 class="your-answer">Your Answer:
+                                                            <span id="answer_value5"></span>
+                                                        </h4>
+                                                        <h5 class="correct-answer">The correct answer:<span
+                                                                id="correct-value5"></span></h5>
+                                                        <p class="exlpanation">"It was called so because of the feasting
+                                                            that took place on this day."</p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                        <div class="container" id="question6">
+
+                                            <div class="row box qnbox">
+                                                <div class="col-sm-1 ">
+                                                    <img src="images/checked.png" alt="checked.png"
+                                                        class="trivia-img checked" id="checked5">
+                                                    <img src="images/wrong.png" alt="wrong.png" class="trivia-img wrong"
+                                                        id="wrong5">
+                                                </div>
+
+                                                <div class="col-sm-11">
+                                                    <div class="qntxtbox">
+                                                        <h5 class="question-heading"><span
+                                                                style="color:green;">6.</span> What
+                                                            is the name of the first mystic society, created in
+                                                            1830?</b>
+
+                                                    </div><br>
+                                                    <div class="anslist">
+
+
+                                                        <div style="margin-bottom:2px;">
+                                                            <input name="6" value="Crewe of Comos" type="radio"> Crewe
+                                                            of Comos</div>
+
+                                                        <div style="margin-bottom:2px;">
+                                                            <input name="6" value="Order of Myths" type="radio"> Order
+                                                            of Myths</div>
+
+                                                        <div style="margin-bottom:2px;">
+                                                            <input name="6" value="The Lost Cause Minstrels"
+                                                                type="radio"> The Lost
+                                                            Cause Minstrels</div>
+
+                                                        <div style="margin-bottom:2px;">
+                                                            <input name="6" value="Cowbellion de Rakin Society"
+                                                                type="radio"> Cowbellion
+                                                            de Rakin Society</div>
+                                                        <br>
+                                                    </div>
+                                                    <div class="answerbox">
+                                                        <h4 class="your-answer">Your Answer:
+                                                            <span id="answer_value6"></span>
+                                                        </h4>
+                                                        <h5 class="correct-answer">The correct answer:<span
+                                                                id="correct-value6"></span></h5>
+                                                        <p class="exlpanation">"This society, under the leadership of
+                                                            Michael Kraft, took the streets of Mobile in 1830 after
+                                                            plundering local stores for rakes, hoes, and cowbells. It
+                                                            was the Cowbellion de Rakin Society who traveled to New
+                                                            Orleans in 1857 to begin its first mystic society."</p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                        <div class="container" id="question7">
+
+                                            <div class="row box qnbox">
+                                                <div class="col-sm-1 ">
+                                                    <img src="images/checked.png" alt="checked.png"
+                                                        class="trivia-img checked" id="checked6">
+                                                    <img src="images/wrong.png" alt="wrong.png" class="trivia-img wrong"
+                                                        id="wrong6">
+                                                </div>
+
+                                                <div class="col-sm-11">
+                                                    <div class="qntxtbox">
+                                                        <h5 class="question-heading"><span
+                                                                style="color:green;">7.</span> When
+                                                            did this original mystic society hold its parade?</b>
+
+                                                    </div><br>
+                                                    <div class="anslist">
+
+
+                                                        <div style="margin-bottom:2px;">
+                                                            <input name="7" value="Mardi Gras Day" type="radio"> Mardi
+                                                            Gras Day</div>
+
+                                                        <div style="margin-bottom:2px;">
+                                                            <input name="7" value="Easter Sunday" type="radio"> Easter
+                                                            Sunday</div>
+
+                                                        <div style="margin-bottom:2px;">
+                                                            <input name="7" value="Christmas Eve" type="radio">
+                                                            Christmas Eve</div>
+
+                                                        <div style="margin-bottom:2px;">
+                                                            <input name="7" value="New Year's Eve" type="radio"> New
+                                                            Year's Eve</div>
+                                                        <br>
+                                                    </div>
+                                                    <div class="answerbox">
+                                                        <h4 class="your-answer">Your Answer:
+                                                            <span id="answer_value7"></span>
+                                                        </h4>
+                                                        <h5 class="correct-answer">The correct answer:<span
+                                                                id="correct-value7"></span></h5>
+                                                        <p class="exlpanation">"Though the Cowbellion de Rakin society
+                                                            marched the streets of Mobile on New Year's Eve, they are
+                                                            still considered the first mystic society and a predecessor
+                                                            of modern Mardi Gras."</p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                        <div class="container" id="question8">
+
+                                            <div class="row box qnbox">
+                                                <div class="col-sm-1 ">
+                                                    <img src="images/checked.png" alt="checked.png"
+                                                        class="trivia-img checked" id="checked7">
+                                                    <img src="images/wrong.png" alt="wrong.png" class="trivia-img wrong"
+                                                        id="wrong7">
+                                                </div>
+
+                                                <div class="col-sm-11">
+                                                    <div class="qntxtbox">
+                                                        <h5 class="question-heading"><span
+                                                                style="color:green;">8.</span> How
+                                                            did the Spanish add their touch to the French Mardi
+                                                            Gras?</b>
+
+                                                    </div><br>
+                                                    <div class="anslist">
+
+
+                                                        <div style="margin-bottom:2px;">
+                                                            <input name="8" value="by holding lighted torch parades"
+                                                                type="radio"> by holding
+                                                            lighted torch parades</div>
+
+                                                        <div style="margin-bottom:2px;">
+                                                            <input name="8"
+                                                                value="by throwing woven Spanish dolls off of the floats"
+                                                                type="radio"> by
+                                                            throwing woven Spanish dolls off of the floats</div>
+
+                                                        <div style="margin-bottom:2px;">
+                                                            <input name="8"
+                                                                value="by changing the name to 'Martes Gordo'"
+                                                                type="radio"> by
+                                                            changing the name to 'Martes Gordo'</div>
+
+                                                        <div style="margin-bottom:2px;">
+                                                            <input name="8" value="by marching on a different day"
+                                                                type="radio"> by
+                                                            marching on a different day</div>
+                                                        <br>
+                                                    </div>
+                                                    <div class="answerbox">
+                                                        <h4 class="your-answer">Your Answer:
+                                                            <span id="answer_value8"></span>
+                                                        </h4>
+                                                        <h5 class="correct-answer">The correct answer:<span
+                                                                id="correct-value8"></span></h5>
+                                                        <p class="exlpanation">"Some mystic societies today still march
+                                                            by torchlight."</p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                        <div class="container" id="question9">
+
+                                            <div class="row box qnbox">
+                                                <div class="col-sm-1 ">
+                                                    <img src="images/checked.png" alt="checked.png"
+                                                        class="trivia-img checked" id="checked8">
+                                                    <img src="images/wrong.png" alt="wrong.png" class="trivia-img wrong"
+                                                        id="wrong8">
+                                                </div>
+
+                                                <div class="col-sm-11">
+                                                    <div class="qntxtbox">
+                                                        <h5 class="question-heading"><span
+                                                                style="color:green;">9.</span> Which
+                                                            of the following was New Orleans' first mystic society?</b>
+
+                                                    </div><br>
+                                                    <div class="anslist">
+
+
+                                                        <div style="margin-bottom:2px;">
+                                                            <input name="9" value="Order of Inca" type="radio"> Order
+                                                            of Inca</div>
+
+                                                        <div style="margin-bottom:2px;">
+                                                            <input name="9" value="Crewe of Columbus" type="radio">
+                                                            Crewe of Columbus</div>
+
+                                                        <div style="margin-bottom:2px;">
+                                                            <input name="9" value="Comic Cowboys" type="radio"> Comic
+                                                            Cowboys</div>
+
+                                                        <div style="margin-bottom:2px;">
+                                                            <input name="9" value="Crewe of Comos" type="radio"> Crewe
+                                                            of Comos</div>
+                                                        <br>
+                                                    </div>
+                                                    <div class="answerbox">
+                                                        <h4 class="your-answer">Your Answer:
+                                                            <span id="answer_value9"></span>
+                                                        </h4>
+                                                        <h5 class="correct-answer">The correct answer:<span
+                                                                id="correct-value9"></span></h5>
+                                                        <p class="exlpanation">"The Crewe of Comos used to parade at
+                                                            Mardi Gras in New Orleans, but gave up in the 1990s
+                                                            (although they still participate in "The Meeting of the
+                                                            Courts" to end the Carnival season). The other three
+                                                            societies mentioned hold parades in Mobile."</p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                        <div class="container" id="question10">
+
+                                            <div class="row box qnbox">
+                                                <div class="col-sm-1 ">
+                                                    <img src="images/checked.png" alt="checked.png"
+                                                        class="trivia-img checked" id="checked9">
+                                                    <img src="images/wrong.png" alt="wrong.png" class="trivia-img wrong"
+                                                        id="wrong9">
+                                                </div>
+
+                                                <div class="col-sm-11">
+                                                    <div class="qntxtbox">
+                                                        <h5 class="question-heading"><span
+                                                                style="color:green;">10.</span> Which
+                                                            of the following individuals gained fame for reviving Mardi
+                                                            Gras after the Civil War?</h5>
+
+                                                    </div><br>
+                                                    <div class="anslist">
+
+
+                                                        <div style="margin-bottom:2px;">
+                                                            <input name="10" value="Michael Kraft" type="radio">
+                                                            Michael Kraft</div>
+
+                                                        <div style="margin-bottom:2px;">
+                                                            <input name="10" value="Ethel Hodgson" type="radio"> Ethel
+                                                            Hodgson</div>
+
+                                                        <div style="margin-bottom:2px;">
+                                                            <input name="10" value="Daniel E. Huger" type="radio">
+                                                            Daniel E. Huger</div>
+
+                                                        <div style="margin-bottom:2px;">
+                                                            <input name="10" value="Joseph Cain" type="radio"> Joseph
+                                                            Cain</div>
+                                                        <br>
+                                                    </div>
+                                                    <div class="answerbox">
+                                                        <h4 class="your-answer">Your Answer:
+                                                            <span id="answer_value10"></span>
+                                                        </h4>
+                                                        <h5 class="correct-answer">The correct answer:<span
+                                                                id="correct-value10"></span></h5>
+                                                        <p class="exlpanation">"Joseph Stillwell Cain, affectionately
+                                                            known as 'Joe Cain', donned Chikasaw Indian clothing and
+                                                            climbed onto a decorated coal wagon pulled by a mule. The
+                                                            Sunday before Mardi Gras is still celebrated as 'Joe Cain
+                                                            Day,' where anyone who wants to can join in the parade.
+                                                            (Michael Kraft led the Cowbellion de Rakin Society, and
+                                                            Daniel E. Huger and Ethel Hodgson reigned as the first king
+                                                            and queen of Mobile's carnival.)"</p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="container" id="result" style="background-color:transparent;">
+                                            <div class="row box qnbox">
+                                                <div class="col-sm-11 ">
+                                                    <p class="your-scored">Your Scored:
+                                                        <span id="result1">0</span>/10
+                                                    </p>
+                                                    <p class="your-scored">Your Scored:
+                                                        <span id="result2">0 </span> points
+                                                    </p>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                        <div class="container" style="background-color:transparent;">
+                                            <div class="row box introbox">
+                                                <div class="col-sm-11">
+                                                    <div class="btn-trivia"><input type=submit
+                                                            value="Submit my Answers!"></div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </form>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="sidebar">
+
+                        <div class="banner">
+                            <span class="join">Join Our Newsletter</span>
+                            <div class="weather">
+                                <iframe
+                                    src="https://www.meteoblue.com/en/weather/widget/daily/new-orleans_united-states-of-america_4335045?geoloc=fixed&days=4&tempunit=FAHRENHEIT&windunit=KILOMETER_PER_HOUR&precipunit=INCH&coloured=monochrome&pictoicon=0&pictoicon=1&maxtemperature=0&maxtemperature=1&mintemperature=0&mintemperature=1&windspeed=0&windspeed=1&windgust=0&winddirection=0&winddirection=1&uv=0&humidity=0&precipitation=0&precipitation=1&precipitationprobability=0&precipitationprobability=1&spot=0&pressure=0&layout=light"
+                                    frameborder="0" scrolling="NO" allowtransparency="true"
+                                    sandbox="allow-same-origin allow-scripts allow-popups allow-popups-to-escape-sandbox"
+                                    style="width: 216px; height: 308px"></iframe>
+                                <div>
+                                    <!-- DO NOT REMOVE THIS LINK --><a
+                                        href="https://www.meteoblue.com/en/weather/week/new-orleans_united-states-of-america_4335045?utm_source=weather_widget&utm_medium=linkus&utm_content=daily&utm_campaign=Weather%2BWidget"
+                                        target="_blank">meteoblue</a></div>
+                            </div>
+
+                        </div>
+
+                        <div class="banner">
+                            <a href="https://locations.walk-ons.com/walk-ons-sports-bistreaux-e0edc85d9198"
+                                class="advert">
+                                <img src="images/walkOnsAdvert.png" class="advert__img">
+                                <h3>New Orleans</h3>
+                                <strong>Check it out!</strong>
+                            </a>
+                        </div>
+
+                        <div class="banner">
+                            <h3 class="link">
+                                <a href="faq.html">Want to know more about Mardi Gras?</a>
+                            </h3>
+
+                            <div class="section__separator">
+                                <div class="yellow"></div>
+                                <div class="green"></div>
+                                <div class="pink"></div>
+                            </div>
+
+                            <h4 class="link">
+                                <a href="faq.html">Visitor's FAQs</a>
+                            </h4>
+
+                            <p class="sidebar__paragraph">Although many people around the world have heard
+                                of Mardi
+                                Gras, there are many questions
+                                that surround the event ...</p>
+
+                            <a class="join" href="faq.html">Read More</a>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+        </section>
+
+        <!--Footer-->
+        <footer style="background: url(images/footerbgc.jpg) repeat;background-size:100% 100%;">
+            <div class="top__line">
+                <div class="social__icons">
+                    <ul class="social__icons__list">
+                        <li class="social__icon__item">
+                            <a href="https://www.facebook.com/MardiGrasNewOrleans" class="social__icon__link">
+                                <i class="fab fa-facebook-square social__icon"></i>
+                            </a>
+                        </li>
+                        <li class="social__icon__item">
+                            <a href="https://twitter.com/MardiGrasNOLA" class="social__icon__link">
+                                <i class="fab fa-twitter-square social__icon"></i>
+                            </a>
+                        </li>
+                        <li class="social__icon__item">
+                            <a href="https://www.instagram.com/mardigrasneworleans/" class="social__icon__link">
+                                <i class="fab fa-instagram-square social__icon"></i>
+                            </a>
+                        </li>
+                        <li class="social__icon__item">
+                            <a href="https://www.youtube.com/channel/UCOrq1qF6dVDn9Do-wvbKh0Q"
+                                class="social__icon__link">
+                                <i class="fab fa-youtube-square social__icon"></i>
+                            </a>
+                        </li>
+                        <li class="social__icon__item">
+                            <a href="https://www.tripadvisor.com/Profile/MardiGrasNOLA" class="social__icon__link">
+                                <i class="fab fa-tripadvisor social__icon"></i>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="scrolup">
+                    <!--Inner anchor-->
+                    <a href="#navbar" class="scrolup__link">
+                        <i class="fas fa-sort-up arrowUp"></i>
+                    </a>
+                </div>
+            </div>
+
+            <p class="footer__paragrath">&copy2019-2020 Created by Andrei Lapicov. All rights reserved.</p>
+            <div class="advert__links wow zoomIn">
+                <a href="https://www.bestneworleanshotels.com/" class="advert">
+                    <img src="images/footerImg1.webp" width="180" height="90" alt="BestNewOrleansHotels.com">
+                </a>
+                <a href="http://www.experienceneworleans.com/" class="advert">
+                    <img src="images/footerImg2.webp" width="180" height="90" alt="Experienceneworleans.com">
+                </a>
+                <a href="http://www.neworleansrestaurants.com/" class="advert">
+                    <img src="images/footerImg3.webp" width="180" height="90" alt="Neworleansrestaurants.com">
+                </a>
+                <a href="https://www.neworleanscoupons.com/" class="advert">
+                    <img src="images/footerImg4.webp" width="180" height="90" alt="Neworleanscoupons.com">
+                </a>
+            </div>
+        </footer>
+    </div>
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.4.1/dist/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous">
+    </script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous">
+    </script>
+    <script src="jquery/jquery.fancybox.min.js"></script>
+    <script src="js/main.js"></script>
+    <script src="js/trivia.js"></script>
+    <script src="js/wow.min.js"></script>
+    <script>
+        new WOW().init();
+    </script>
+</body>
+
+</html>
