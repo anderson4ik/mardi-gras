@@ -117,13 +117,13 @@ body {
             flex-direction: column;
             justify-content: space-between;
             align-items: center;
-            z-index: 0;
+            z-index: 5;
             transition: top .8s cubic-bezier(1, 0, 0, 1);
 
             .navigation-list {
                 list-style: none;
                 padding: 0;
-                height: 28em;
+                height: 24em;
                 display: flex;
                 flex-direction: column;
                 justify-content: space-between;
@@ -148,7 +148,7 @@ body {
 
                         &::before {
                             content: "";
-                            width: 0em;
+                            width: 0;
                             height: .1em;
                             background-color: $yellow;
                             position: absolute;
@@ -159,7 +159,7 @@ body {
 
                         &::after {
                             content: "";
-                            width: 0em;
+                            width: 0;
                             height: .1em;
                             background-color: $yellow;
                             position: absolute;
